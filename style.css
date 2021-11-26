@@ -1,0 +1,93 @@
+* {
+    padding-left: 0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    margin: 17rem 0px;
+    background-color:gainsboro;
+    transform-style: preserve-3d;
+    transform: perspective(500px) ;
+}
+
+#timer {
+    position: relative;
+    padding: 30px 40px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #fff;
+    animation: animate 6s ease-in-out infinite
+
+}
+
+
+
+#timer .minutes {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#timer .colon {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#timer .seconds {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#timer .control {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    cursor: pointer;
+
+}
+
+#timer .control:hover {
+    background-color: fuchsia;
+    transition: .5s;
+
+
+}
+
+#timer .stop {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: gray;
+    color:black;
+    cursor: pointer;
+}
+
+#timer .stop:hover {
+    background-color: pink;
+    transition: .5s;
+}
+
+
+
+#timer .reset {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: pink;
+
+}
+
+#timer .reset:hover{
+    background-color: gainsboro;
+    transition: .5s;
+}
